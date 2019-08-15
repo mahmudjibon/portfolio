@@ -1,0 +1,706 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+
+
+/*-------------------------------------------- Navigation Bar --------------------------------------------*/
+
+.navigation_bar {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+}
+
+/*------- Logo  --------*/
+.navigation_bar .logo {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation_bar .logo a {
+    text-decoration: none;
+}
+
+.navigation_bar .logo a:hover {
+    text-decoration: none;
+}
+
+.navigation_bar .logo a h3 {
+    line-height: 70px;
+    padding: 0;
+    color: #6E6E6E;
+    text-transform: uppercase;
+    margin: 0 0 0 70px;;
+}
+
+
+/*------- Nav Bar  --------*/
+.nav_bar {
+    float: right;
+}
+
+nav {
+    margin-right: 20px;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+nav ul li a {
+    line-height: 70px;
+    padding: 0 30px;
+    display: block;
+    font-size: 16px;
+    font-weight: lighter;
+    text-transform: uppercase;
+    color: #6E6E6E;
+    transition: .5s;
+}
+
+nav ul li a:hover {
+    color: #FE2E64;
+    text-decoration: none;
+    transition: .5s;
+}
+
+
+/*------- Side Nav Bar  --------*/
+
+.bars p {
+    font-size:30px;
+    cursor:pointer; 
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    font-size: 35px;
+    border: 1px solid #000;
+    padding: 0px 8px;
+    border-radius: 6px;
+    display: none;
+}
+
+.sidenav {
+    display: none;
+}
+
+
+
+
+/*-------------------------------------------- Background Image --------------------------------------------*/
+.bg_image {
+    width: 100%;
+    height: 600px;
+    background-image: url(../images/bg_3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.bg_image .bg_text {
+    position: relative;
+    top: 30%;
+    text-align: center;
+}
+
+.bg_image .bg_text h1 {
+    font-family: serif;
+    color: #fff;
+    font-size: 80px;
+}
+
+.bg_image .bg_text p {
+    color: #fff;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.bg_image .bg_text a {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-family: serif;
+    margin-top: 10px;
+    text-decoration: none;
+}
+
+.bg_image .bg_text a:hover {
+    text-decoration: none;
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+/*-------------------------------------------- OUR STORY --------------------------------------------*/
+.our_story {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 90px;
+}
+
+
+/*--------- Story Text ------*/
+.our_story .story_text {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    padding-left: 50px;
+    margin-bottom: 50px;
+}
+
+.our_story .story_text p:nth-child(1) {
+    letter-spacing: 5px;
+    color: #D8D8D8;
+    font-size: 17px;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.our_story .story_text h1 {
+    font-family: serif;
+    font-size: 50px;
+    padding-bottom: 20px;
+}
+
+.our_story .story_text p {
+    color: #D8D8D8;
+    padding-bottom: 65px;
+    font-size: 17px;
+}
+
+.our_story .story_text button {
+    border: 1.5px solid #848484;
+    background-color: transparent;
+    color: #848484;
+    padding: 15px 30px;
+    font-size: 17px;
+    font-family: serif;
+}
+
+.our_story .story_text button:hover {
+    background-color: #FFBF00;
+    color: #fff;
+    border: none;
+    border: 1.5px solid #FFBF00; 
+}
+
+/*--------- Story Image ------*/
+.our_story .story_img {
+    width: 100%;
+    height: 100%;
+    background-color: green;
+    margin-bottom: 50px;
+}
+
+.our_story .story_img img {
+    width: 100%;
+    height: 199%;
+    overflow: hidden;
+}
+
+
+
+
+
+
+
+/*-------------------------------------------- OUR OFFERS --------------------------------------------*/
+.our_offer {
+    width: 100%;
+    height: auto;
+    background-color: #f8f9fa;
+    margin-bottom: 120px;
+    padding-bottom: 80px;
+}
+
+.our_offer .offer_text {
+    text-align: center;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 100px;
+}
+
+.our_offer .offer_text p:nth-child(1) {
+    font-size: 18px;
+    color: #D8D8D8;
+    letter-spacing: 5px;
+}
+
+ .offer_text h1 {
+    font-family: serif;
+    font-size: 55px;
+}
+ .offer_text p {
+    font-size: 20px;
+    color: #D8D8D8;
+}
+
+
+/*------------ Offet Item ----------*/
+.offer_item {
+    width: 100%;
+    background-color: transparent;
+    height: 600px;
+    margin: 0 0 40px 0;
+    padding: 0;
+    
+}
+
+
+.our_offer .offer_item .offer_img {
+    height: 45%;
+    background-color: #fff; 
+    overflow: hidden;
+}
+.our_offer .offer_item .offer_img  img {
+    width: 100%;
+    transition: .7s;
+}
+
+.offer_item .offer_text {
+    height: 55%;
+    position: relative;
+    top: 0px;
+    padding: 0px 30px;
+    background-color: #fff;
+}
+
+.our_offer .offer_item .offer_text p:nth-child(1) {
+    text-align: center;
+    color: #FFBF00; 
+    font-weight: bold;
+    font-size: 19px;
+    padding-top: 30px;
+}
+
+.our_offer .offer_item .offer_text p {
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.our_offer .offer_item .offer_text h2{
+    font-family: serif;
+    font-weight: bold;
+    font-size: 25px;
+} 
+
+.our_offer .offer_item .offer_text a {
+    border: 1px solid #FFBF00; 
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #FFBF00;
+    text-decoration: none;
+}
+
+.our_offer .offer_item .offer_text a:hover {
+    background-color: transparent;
+    text-decoration: none;
+    color: #A4A4A4;
+}
+
+/*----------- Imtem Box Hover -----------*/
+
+.offer_item:hover .offer_img  img {
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+
+
+
+
+/*-------------------------------------------- Delicious Menu --------------------------------------------*/
+.menu {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+}
+
+.menu .menu_text {
+    text-align: center;
+}
+
+.menu .menu_text h1 {
+    font-family: serif;
+    font-size: 55px;
+}
+
+.menu .menu_text p{
+    color: #D8D8D8;
+    font-size: 18px;
+    padding-bottom: 50px;
+}
+
+.menu .menu_text a {
+    border: 1.5px solid #D8D8D8;
+    margin: 0px 10px;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #D8D8D8;
+}
+
+.menu .menu_text a:hover {
+    text-decoration: none;
+}
+
+.menu .menu_text a.active {
+    border: 1.5px solid #000;
+    color: #000;
+}
+
+
+/*----------- Menu Item --------*/
+.menu_item {
+    margin-top: 70px;
+}
+
+.item_box {
+    width: 100%;
+    height: 160px;
+    margin: 20px 0;
+}
+
+
+/*----------- Item Image --------*/
+.item_img {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 25px;
+}
+
+.item_img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+/*----------- Item Text --------*/
+
+.item_text h2 {
+    margin: 0;
+    padding: 0;
+    font-family: serif;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+.item_text p {
+    padding-top: 10px;
+    font-size: 16px;
+    color: #D8D8D8;
+}
+
+.item_text p:nth-child(3) {
+    color: #FFBF00; 
+    font-weight: bold;
+    letter-spacing: 3px;
+    font-family: serif;
+    font-size: 20px;
+}
+
+
+
+/*-------------------------------------------- Gallery --------------------------------------------*/
+.img_gallery {
+    width: 100%;
+    height: auto;
+    background-color: #fff;#01DFD7;
+}
+
+/*---------- Gallery Text --------*/
+.gallery_text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.gallery_text h1 {
+    font-family: serif;
+    font-size: 40px;
+}
+
+.gallery_text p {
+    font-size: 18px;
+    color: #D8D8D8;
+    font-weight: bold;
+        
+}
+
+/*---------- Gallery Image --------*/
+.gallery {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    margin-top: 30px;
+    margin-left: 0;
+}
+
+.gallery img {
+    width: 100%;
+    height: 100%;
+    transition: .7s;
+    overflow: hidden;
+}
+
+.gallery img:hover  {
+    transform: scale(1.1);
+    transition: .7s;
+}
+
+
+
+/*-------------------------------------------- Get In Touch --------------------------------------------*/
+.get_text {
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    margin-top: 100px;
+}
+
+.get_text {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.get_text h1 {
+    font-family: serif;
+    font-size: 45px;
+}
+
+.get_text p {
+    font-size: 18px;
+    color: #A4A4A4;
+    font-weight: bold;    
+}
+
+/*---------------- Inpur Text --------------*/
+
+.input_text {
+    margin-top: 50px;
+}
+
+input[ type = "text" ] {
+    border: none;
+    font-size: 18px;
+    background-color: #e6e6e6;
+    margin-bottom: 15px;
+    padding: 15px 10px;
+    width: 450px;
+}
+
+textarea {
+    border: none;
+    background-color: #e6e6e6;
+    margin-top: 10px; 
+    padding: 15px 10px;
+    width: 450px;
+    font-size: 30px;
+}
+
+.get_touch button {
+    border: 1.5px solid #FFBF00;
+    background-color: #FFBF00;
+    color: #fff;
+    font-size: 17px;
+    padding: 10px 50px;
+    font-family: serif;
+    margin-top: 10px;
+}
+
+.get_touch button:hover {
+    background-color: transparent;
+    color: #000;
+}
+
+
+
+
+/*---------------- Get Touch Image --------------*/
+.touch {
+    margin-top: 50px;
+    padding-bottom: 30px;
+}
+
+.touch_img {
+    overflow: hidden;
+}
+
+.touch_img img {
+    width: 70%;
+    height: 230px;
+}
+
+.touch_text {
+    text-align-last: left;
+    padding-top: 15px;
+}
+
+.touch_text p {
+    font-weight: lighter;
+    font-size: 16px;
+    color: #000;
+}
+
+.touch_text p a {
+    text-decoration: none;
+    color: #FFBF00;
+}
+
+.touch_text p a:hover {
+    text-decoration: none;
+}
+
+
+/*-------------------------------------------- Footer --------------------------------------------*/
+.footer {
+    width: 100%;
+    height: auto;
+    background-color: #222;
+}
+
+.about_us,
+.restaurant,
+.links 
+{
+    padding-top: 100px;
+}
+
+.about_us h4,
+.restaurant h4, 
+.links h4
+{
+    color: #D8D8D8;
+    font-family: serif;
+}
+
+/*--------- About Us ----------*/
+
+.about_us p {
+    color: #848484;
+    font-size: 17px;
+    padding-right: 190px;
+}
+
+/*--------- Restaurant & lINK ----------*/
+
+.restaurant ul,
+.links ul{
+    margin: 0;
+    padding: 0;
+}
+
+.restaurant ul li,
+.links ul li{
+    list-style: none;
+}
+
+.restaurant ul li a,
+.links ul li a {
+    color: #848484;
+    font-size: 17px;
+    line-height: 35px;
+    transition: .5s;
+}
+
+.restaurant ul li a:hover,
+.links ul li a:hover{
+    text-decoration: none;
+    color: #FFBF00;
+    transition: .5s;
+}
+
+/*--------- Credit ----------*/
+
+.credit {
+    text-align: center;
+    color: #D8D8D8;
+    padding: 20px 0;
+    margin: 0;
+}
+
+.credit p a {
+    text-decoration: none;
+    color: #D8D8D8;
+    transition: .5s;
+}
+
+.credit:hover p a {
+    color: #DF013A;
+    transition: .5s;
+}
+
+
+
+
+/*-------------------------------------------- Creadit --------------------------------------------*/
+
+
+.social {
+    width: 100%;
+    height: 40px;
+    background-color: #6E6E6E;
+}
+
+.social .icon {
+    text-align: center;
+}
+
+.social .icon ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+.social .icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social .icon ul li a {
+    padding: 20px;
+    line-height: 40px;
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

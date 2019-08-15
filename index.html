@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> Home || EatWell </title>
+
+<!---- Css ---->
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<link rel="stylesheet" type="text/css" href="css/responsive.css">
+
+<!---- JS ------>
+
+
+<!-- BootStrap Link -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    
+<!-- Font Awesome -->   
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">    
+
+</head>
+
+
+<body>
+
+<!--------------------------------- Navigation Bar -------------------------------------->
+<section class="navigation_bar">
+    <div class="logo">
+      <a href="index.html"><h3> EatWel </h3></a>
+    </div>
+
+
+    <div class="nav_bar">
+        <nav>
+            <ul>
+                <li><a href="index.html"> home </a></li>
+                <li><a href="offer.html"> Offer </a></li>
+                <li><a href="menu.html"> menu </a></li>
+                <li><a href="news.html"> news </a></li>
+                <li><a href="gallery.html"> gallery </a></li>
+            </ul>
+        </nav>
+    </div>
+
+
+
+    <!------------------- Side Nav ------------------>
+
+    <div id="mySidenav" class="sidenav">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="#"> home </a>
+      <a href="#"> Offer </a>
+      <a href="#"> menu </a>
+      <a href="#"> news </a>
+      <a href="#"> gallery </a>
+    </div>
+
+<div class="bars">
+    <p onclick="openNav()">&#9776;</p>
+</div>
+
+
+</section>
+
+
+
+<!--------------------------------- Background Image -------------------------------------->
+<section class="bg_image">
+    <div class="bg_text">
+        <h1> Welcome To EatWell </h1>
+        <p> Come and eat well with our delicious & healthy foods.</p>
+        <a href="#"> Reservation </a>
+    </div>
+</section>
+
+<!--------------------------------- OUR STORY -------------------------------------->
+<section class="our_story">
+    <div class="container-fluid">
+        <div class="row">
+
+            <div class="col-md-6">
+                <div class="story_text">
+                    <p> OUR STORY </p>
+                    <h1> Welcome </h1>
+                    <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. <br> <br>
+                    A small river named Duden flows by their place and supplies it <br> with the necessary regelialia. It is a paradisematic country, in <br> which roasted parts of sentences fly into your mouth. </p>
+                    <button> Learn More About Us </button>
+                </div>
+            </div>
+
+
+            <div class="col-md-6">
+                <div class="story_img">
+                    <img src="images/about_img_1.jpg">
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+<!--------------------------------- OUR OFFERS -------------------------------------->
+<section class="our_offer">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+            <div class="offer_text">
+                <p> OUR OFFERS </p>
+                <h1> Our Offer This Summer </h1>
+                <p> Far far away, behind the word mountains, far from the countries Vokalia <br> and Consonantia, there live the blind texts. </p>
+            </div>
+    </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+
+                    <!----- Offer 1  ----->
+            <div class="col-md-4 offer_item">
+                <div class="offer_img">
+                    <img src="images/offer_1.jpg">
+                </div>
+
+                <div class="offer_text">
+                    <p> $22.50 </p>
+                    <h2> Beef with Sauce </h2>
+                    <p> Far far away, behind the word mountains, far from the countries Vokalia  and Consonantia, there live the blind texts. </p>
+                    <a href="#"> Order Now </a>
+                </div>
+            </div>
+
+                    <!----- Offer 2  ----->
+            <div class="col-md-4 offer_item">
+                 <div class="offer_img">
+                    <img src="images/offer_2.jpg">
+                </div>
+
+                <div class="offer_text">
+                    <p> $22.50 </p>
+                    <h2> Fresh Salmon Fish </h2>
+                    <p> Far far away, behind the word mountains, far from the countries Vokalia  and Consonantia, there live the blind texts. </p>
+                    <a href="#"> Order Now </a>
+                </div>
+            </div>
+
+                    <!----- Offer 3  ----->
+            <div class="col-md-4 offer_item">
+                 <div class="offer_img">
+                    <img src="images/offer_3.jpg">
+                </div>
+
+                <div class="offer_text">
+                    <p> $22.50 </p>
+                    <h2> Beef Ribs </h2>
+                    <p> Far far away, behind the word mountains, far from the countries Vokalia  and Consonantia, there live the blind texts. </p>
+                    <a href="#"> Order Now </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--------------------------------- Delicious Menu -------------------------------------->
+<section class="menu">
+    <div class="menu_text">
+        <h1> Delicious Menu </h1>
+        <p> Far far away, behind the word mountains, far from the countries Vokalia <br> and Consonantia, there live the blind texts. </p>
+
+        <a href="#" class="active"> Brekfast </a>
+        <a href="#"> lunch </a>
+        <a href="#"> Dinner </a>
+    </div>
+
+    <div class="container">
+        <div class="row">
+                <!------ Menu Item 1  ----->
+            <div class="col-md-6 menu_item">
+                    <!----- Item 1  --->
+                <div class="item_box">
+                    <div class="item_img">
+                        <img src="images/menu_1.jpg">
+                    </div>
+                    <div class="item_text">
+                        <h2> Salted Fried Chicken</h2>
+                        <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p> $35.50 </p>
+                    </div>
+                </div>
+
+                    <!----- Item 2  --->
+                <div class="item_box">
+                    <div class="item_img">
+                        <img src="images/menu_2.jpg">
+                    </div>
+                    <div class="item_text">
+                        <h2> Italian Sauce Mushroom </h2>
+                        <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p> $24.50 </p>
+                    </div>
+                </div>
+
+                    <!----- Item 3  --->
+                <div class="item_box">
+                    <div class="item_img">
+                        <img src="images/menu_3.jpg">
+                    </div>
+                    <div class="item_text">
+                        <h2> Fried Potato Garlic </h2>
+                        <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p> $14.50 </p>
+                    </div>
+                </div>
+            </div>
+
+                       <!------ Menu Item 2  ----->
+            <div class="col-md-6 menu_item">
+
+                <!----- Item 1  --->
+                <div class="item_box">
+                    <div class="item_img">
+                        <img src="images/menu_3.jpg">
+                    </div>
+                    <div class="item_text">
+                        <h2> Fried Potato Garlic </h2>
+                        <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p> $14.50 </p>
+                    </div>
+                </div>
+
+                    <!----- Item 2  --->
+                <div class="item_box">
+                    <div class="item_img">
+                        <img src="images/menu_2.jpg">
+                    </div>
+                    <div class="item_text">
+                        <h2> Italian Sauce Mushroom </h2>
+                        <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p> $24.50 </p>
+                    </div>
+                </div>
+
+                    <!----- Item 3  --->
+                <div class="item_box">
+                    <div class="item_img">
+                        <img src="images/menu_3.jpg">
+                    </div>
+                    <div class="item_text">
+                        <h2> Fried Potato Garlic </h2>
+                        <p> Far far away, behind the word mountains, far from the <br> countries Vokalia and Consonantia, there live the blind texts. </p>
+                        <p> $14.50 </p>
+                    </div>
+                </div>
+             </div>
+
+
+
+        </div>
+    </div>
+
+</section>
+
+
+<!--------------------------------- Gallery -------------------------------------->
+<section class="img_gallery">
+    <div class="gallery_text">
+        <h1> Gallery </h1>
+        <p> Far far away, behind the word mountains, far from the countries Vokalia <br> and Consonantia, there live the blind texts. </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 gallery">
+                <img src="images/menu_1.jpg">
+            </div>
+
+
+            <div class="col-md-4 gallery">
+                <img src="images/menu_2.jpg">
+            </div>
+
+
+            <div class="col-md-4 gallery">
+                <img src="images/menu_3.jpg">
+            </div>
+
+
+            <div class="col-md-4 gallery">
+                <img src="images/menu_2.jpg">
+            </div>
+
+
+            <div class="col-md-4 gallery">
+                <img src="images/menu_3.jpg">
+            </div>
+
+
+            <div class="col-md-4 gallery">
+                <img src="images/menu_1.jpg">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!--------------------------------- Get In Touch -------------------------------------->
+<section class="get_touch">
+    <div class="get_text">
+        <h1> Get In Touch </h1>
+        <p> Far far away, behind the word mountains, far from the countries Vokalia <br> and Consonantia, there live the blind texts. </p>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 input_text">
+
+                <input type="text" placeholder="Name"><br>
+                <input type="text" placeholder="Email"><br>
+                <textarea rows="9" cols="50" placeholder="Message"></textarea><br>
+                <button> Send Message </button>
+
+
+            </div>
+
+            <div class="col-md-6 touch">
+                <div class="touch_img">
+                    <img src="images/about_img_1.jpg">
+                </div>
+
+                <div class="touch_text">
+                    <p> Address: <br> 121 Street, Melbourne Victoria <br>
+                    3000 Australia </p>
+
+                    <p> Phone: <br>
+                        90 987 65 44  </p>
+
+                    <p> Email: <br>
+                        <a href="#"> info@yoursite.com </a> </p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!--------------------------------- Footer -------------------------------------->
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-5 about_us">
+                <h4> ABOUT US </h4>
+                <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cumque, similique, delectus blanditiis odit expedita amet. Sed labore ipsum vel dolore, quis, culpa et magni autem sequi facere eos tenetur, ex? </p>
+            </div>
+
+
+            <div class="col-md-4 restaurant">
+                <h4> THE RESTAURANT </h4>
+                <ul>
+                    <li><a href="#"> About Us </a></li>
+                    <li><a href="#"> Chefs </a></li>
+                    <li><a href="#"> Events </a></li>
+                    <li><a href="#"> Contact </a></li>
+                </ul>
+            </div>
+
+
+            <div class="col-md-3 links">
+                <h4> THE RESTAURANT </h4>
+                <ul>
+                    <li><a href="#"> Foods </a></li>
+                    <li><a href="#"> Drinks </a></li>
+                    <li><a href="#"> Breakfast </a></li>
+                    <li><a href="#"> Brunch </a></li>
+                    <li><a href="#"> Dinner </a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+
+<div class="credit">
+    <p> © Copyright ©2019 All rights reserved | This template is made with  by <a href="#"> themeshub.com </a> </p>
+</div>
+
+</section>
+
+<!--------------------------------- Credit -------------------------------------->
+
+<section class="social">
+    <div class="icon">
+        <ul>
+            <li><a href="https://www.facebook.com/jibon.3223"><i class="fab fa-facebook-square"></i></a></li>
+            <li><a href="https://www.instagram.com/mahmud__jibon"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="twitter.com/mahmudul1595"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="snapchat.com/add/jibon3223"><i class="fab fa-snapchat-ghost"></i></a></li>
+            <li><a href=""><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </div>
+</section>    
+
+
+
+
+
+
+<!--------------------------------- Java Script -------------------------------------->
+
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
